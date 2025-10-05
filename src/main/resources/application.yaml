@@ -2,7 +2,7 @@ quarkus:
   http:
     port: 8080
     host: 0.0.0.0
-
   datasource:
     devservices:
-      port: 54321
+      port: 15432
+      reuse: true
